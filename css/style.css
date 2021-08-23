@@ -135,11 +135,11 @@ img {
 	} 
 
 .hauptteil {
-	background: rgba(240,255,255,0.8);
+	/*background: rgba(240,255,255,0.8);*/
 	position: absolute;
 	min-height: 70%;
-	margin-top: 30px;
-	margin-left: 30%;
+	margin-top: 20%;
+	margin-left: 40%;
 	margin-right: 15%;
 	padding: 50px;
 	z-index: 1;
