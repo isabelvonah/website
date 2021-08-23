@@ -1,4 +1,3 @@
-/*Auf selfhtml.org und w3schools.com fand ich Erklärungen zu den noch nicht behandelten CSS-Regeln, wie z.B animation oder clip-path */
 
 html,body {
 	margin: 0;
@@ -135,9 +134,9 @@ img {
 	} 
 
 .hauptteil {
-	/*background: rgba(240,255,255,0.8);*/
+	background: rgba(240,255,255,0.7);
 	position: absolute;
-	min-height: 70%;
+	min-height: 10%;
 	margin-top: 20%;
 	margin-left: 40%;
 	margin-right: 15%;
