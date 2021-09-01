@@ -1,7 +1,7 @@
 
 html,body {
 	margin: 0;
-	background-image: url(../bilder/hg01.jpg);
+	background-image: url(../public/hg01.jpg);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -158,28 +158,25 @@ img {
 	} 
 
 .form {
-	line-height: 1.5;
-	border: none;
-	border-bottom: 3px solid #ebebeb;
-	margin-top: 100px;
-	width: 700px;
-	font-size: 2.9em;
-	padding: 5px 10px;
-	background: transparent;
+    line-height: 1;
+    border: none;
+    border-bottom: 3px solid #ebebeb;
+    margin-top: 10px;
+    width: 100px;
+    padding: 5px 10px;
+    background: transparent;
 }
 
 button {
-	line-height: 2.0;
-	border:3px solid white;
-	font-size: 1.9em;
-	color: rgb(66,69,86);
-	margin-top: 100px
-	padding: 5px 30px;
-	background: rgba(255,255,255,1.0);
-	border-radius: 5px;
-	opacity: 0.8;
+    line-height: 2.0;
+    border:3px solid white;
+    color: rgb(66,69,86);
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: rgba(255,255,255,1.0);
+    border-radius: 5px;
+    opacity: 0.8;
 }
 
 input[type=text]:focus {
-	outline: none;
-}
+    outline: none;
