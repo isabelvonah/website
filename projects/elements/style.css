@@ -1,0 +1,7 @@
+.ballon {
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #ed7a13;
+}

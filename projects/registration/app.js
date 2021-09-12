@@ -23,7 +23,7 @@ app.get("/", function(req, res){
 });
 
 app.post("/register", function(req,res){
-	var person = {user_name: req.body.user_name, user_fname: req.body.user_fname, user_lname: req.body.user_lname, birthday: req.body.birthday, email: req.body.email};
+	var person = {name: req.body.name, email: req.body.email};
 	connection.query('INSERT INTO users_reg SET ?', person, function(err, result) {
 		if (err) throw err;
 		res.redirect("/");
